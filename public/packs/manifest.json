@@ -1,0 +1,24 @@
+{
+  "application.js": "/packs/js/application-394a30c888e8df854524.js",
+  "application.js.map": "/packs/js/application-394a30c888e8df854524.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-394a30c888e8df854524.js"
+      ],
+      "js.map": [
+        "/packs/js/application-394a30c888e8df854524.js.map"
+      ]
+    },
+    "hello_vue": {
+      "js": [
+        "/packs/js/hello_vue-c93d9106c1513589a856.js"
+      ],
+      "js.map": [
+        "/packs/js/hello_vue-c93d9106c1513589a856.js.map"
+      ]
+    }
+  },
+  "hello_vue.js": "/packs/js/hello_vue-c93d9106c1513589a856.js",
+  "hello_vue.js.map": "/packs/js/hello_vue-c93d9106c1513589a856.js.map"
+}
