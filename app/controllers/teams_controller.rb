@@ -28,7 +28,7 @@ class TeamsController < ApplicationController
   def create
     @team = current_user.teams.build(team_params)
     @team.users << current_user
-    
+
     respond_to do |format|
       if @team.save
         format.html { redirect_to root_path, notice: 'Team was successfully created.' }
@@ -72,6 +72,6 @@ class TeamsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def team_params
-      params.require(:team).permit(:name, users_attribute: [:id, :name, :email, :_destroy])
+      params.require(:team).permit(:name, users_attributes: [:id, :name, :email, :_destroy])
     end
 end
